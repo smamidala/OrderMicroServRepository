@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "OrderMicroService",
+    "packageName": "com.ven.nar",
+    "packageFolder": "com/ven/nar",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "hi",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "Y2E5YmQxMDg0ZDI4NmQzOTRjYjk4MmI2NmQyYzBmMzg2YjYwM2IyMTA2NWZkM2JkMDU1NmVmNWQxMGViZjljZWNhOWE4MmMwMGZjZjA4NjAwZDRiMzM3ZWQ1YTJkYTFlMzM5M2UyZjg3NTliM2UyODAwMTg2ZDhiZGIxNTRjNWM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "smamidala",
+  "repository-name": "OrderMicroServRepository"
+}
